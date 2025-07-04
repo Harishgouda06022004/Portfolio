@@ -126,7 +126,7 @@ const educationInfo = {
     {
       schoolName: "Visvesvaraya Technological University",
       logo: require("./assets/images/vtu.jpeg"),
-      subHeader: "Bachelor of Science in Computer Science CGPA:9",
+      subHeader: "Bachelor of Science in Computer Science CGPA:9.0",
       duration: "December 2022 - December 2026",
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
