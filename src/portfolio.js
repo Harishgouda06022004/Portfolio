@@ -272,18 +272,18 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "LeetCode",
+      title: "LeetCode 50 days badage",
       subtitle:
         "First 50 days badage",
       image: require("./assets/images/leetcode.jpeg"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "LeetCode Logo",
       footerLink: [
         // {
         //   name: "Certification",
         //   url: "https://leetcode.com/medal/?showImg=0&id=6276283&isLevel=false"
         // },
         {
-          name: "Award Letter",
+          name: "LeetCode 50 days badage",
           url: "https://leetcode.com/medal/?showImg=0&id=6276283&isLevel=false"
         },
         // {
@@ -293,29 +293,29 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "LeetCode 100 days badage",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Consistent for 100 days on leetcode platform",
+      image: require("./assets/images/leetcode.jpeg"),
+      imageAlt: "LeetCode logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "leetCode 100 days badage",
+          url: "https://leetcode.com/medal/?showImg=0&id=6810406&isLevel=false"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "LeetCode sql 50 badage",
+      subtitle: "LeetCode sql 50 badage",
+      image: require("./assets/images/leetcode.jpeg"),
+      imageAlt: "Sql 50 Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        // {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Sql 50 leetCode",
+          url: "https://leetcode.com/medal/?showImg=0&id=6700833&isLevel=false"
         }
       ]
     }
