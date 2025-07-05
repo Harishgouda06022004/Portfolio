@@ -332,16 +332,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@harishgouda216/artic-le-2-f1baea32bf62",
+      title: "Basic Linux Commands which every developer should know",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "A beginner-friendly guide that introduces essential Linux commands every developer should know to navigate, manage files, and boost productivity in a terminal environment."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@harishgouda216/article-1-97159c527652",
+      title: "Linux The Beautiful Art",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "An insightful article that explores the elegance and power of Linux, highlighting its versatility, open-source nature, and why it's cherished by developers around the world."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -357,10 +357,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Fabric Defect Detection",
+      subtitle: "A model which will detect the Defects in the Fabric",
+      slides_url: "https://docs.google.com/presentation/d/1GqWaGWi_0pYlocAEOiXElhQiRXyZlE1E/edit?usp=sharing&ouid=105445719629067261950&rtpof=true&sd=true",
+      event_url: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
