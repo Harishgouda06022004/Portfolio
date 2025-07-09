@@ -54,7 +54,8 @@ export default function GithubRepoCard({repo, isDark}) {
                   <div
                     className="language-color"
                     style={{
-                      backgroundColor: repo.node.primaryLanguage?.color || "#ccc"
+                      backgroundColor:
+                        repo.node.primaryLanguage?.color || "#ccc"
                     }}
                   ></div>
                   <p>{repo.node.primaryLanguage?.name || "Unknown"}</p>
@@ -96,7 +97,11 @@ export default function GithubRepoCard({repo, isDark}) {
               </span>
             </div>
             <div className="repo-right-stat">
-            <p>{repo.node.diskUsage ? formatFileSizeDisplay(repo.node.diskUsage) : ""}</p>
+              <p>
+                {repo.node.diskUsage
+                  ? formatFileSizeDisplay(repo.node.diskUsage)
+                  : ""}
+              </p>
             </div>
           </div>
         </div>

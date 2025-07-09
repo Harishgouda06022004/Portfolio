@@ -127,7 +127,7 @@ const educationInfo = {
       schoolName: "Visvesvaraya Technological University",
       logo: require("./assets/images/vtu.jpeg"),
       subHeader: "Bachelor of Science in Computer Science CGPA:9.0",
-      duration: "December 2022 - December 2026",
+      duration: "December 2022 - December 2026"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -138,7 +138,7 @@ const educationInfo = {
       schoolName: "Vidyaniketan P.U. Science College",
       logo: require("./assets/images/vidyniketan.jpeg"),
       subHeader: "Science Percentage-84%",
-      duration: "October 2020 - October 2022",
+      duration: "October 2020 - October 2022"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
@@ -146,7 +146,7 @@ const educationInfo = {
       schoolName: "Shanti Niketan English Medium School Hubli",
       logo: require("./assets/images/school.jpeg"),
       subHeader: "School 10th Percentage 94%",
-      duration: "October 2008 - October 2020",
+      duration: "October 2008 - October 2020"
     }
   ]
 };
@@ -210,7 +210,6 @@ const workExperiences = {
         "Integrated ChatGPT-based assistant into core UI flow"
       ]
     }
-    
   ]
 };
 
@@ -223,7 +222,8 @@ const openSource = {
   contributions: [
     {
       title: "Care OHC Network",
-      description: "Contributed to the front-end of the Care OHC Network platform.",
+      description:
+        "Contributed to the front-end of the Care OHC Network platform.",
       prLink: "https://github.com/ohcnetwork/care_fe/pull/11869"
     }
   ]
@@ -238,7 +238,8 @@ const bigProjects = {
     {
       image: require("./assets/images/xirr.png"),
       projectName: "XIRR",
-      projectDesc: "A platform to streamline startup investment tracking and financial analytics for founders",
+      projectDesc:
+        "A platform to streamline startup investment tracking and financial analytics for founders",
       footerLink: [
         {
           name: "Visit Website",
@@ -250,7 +251,8 @@ const bigProjects = {
     {
       image: require("./assets/images/autocrud.png"),
       projectName: "Auto-Crud",
-      projectDesc: "A tool that auto-generates full CRUD operations for Laravel projects with minimal setup.",
+      projectDesc:
+        "A tool that auto-generates full CRUD operations for Laravel projects with minimal setup.",
       footerLink: [
         {
           name: "Visit Website",
@@ -273,8 +275,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "LeetCode 50 days badage",
-      subtitle:
-        "First 50 days badage",
+      subtitle: "First 50 days badage",
       image: require("./assets/images/leetcode.jpeg"),
       imageAlt: "LeetCode Logo",
       footerLink: [
@@ -285,7 +286,7 @@ const achievementSection = {
         {
           name: "LeetCode 50 days badage",
           url: "https://leetcode.com/medal/?showImg=0&id=6276283&isLevel=false"
-        },
+        }
         // {
         //   name: "Google Code-in Blog",
         //   url: "https://.googleblog.com/2019/01/google-code-in-2018-winners.html"
@@ -294,8 +295,7 @@ const achievementSection = {
     },
     {
       title: "LeetCode 100 days badage",
-      subtitle:
-        "Consistent for 100 days on leetcode platform",
+      subtitle: "Consistent for 100 days on leetcode platform",
       image: require("./assets/images/leetcode.jpeg"),
       imageAlt: "LeetCode logo",
       footerLink: [
@@ -359,7 +359,8 @@ const talkSection = {
     {
       title: "Fabric Defect Detection",
       subtitle: "A model which will detect the Defects in the Fabric",
-      slides_url: "https://docs.google.com/presentation/d/1GqWaGWi_0pYlocAEOiXElhQiRXyZlE1E/edit?usp=sharing&ouid=105445719629067261950&rtpof=true&sd=true",
+      slides_url:
+        "https://docs.google.com/presentation/d/1GqWaGWi_0pYlocAEOiXElhQiRXyZlE1E/edit?usp=sharing&ouid=105445719629067261950&rtpof=true&sd=true",
       event_url: ""
     }
   ],
