@@ -7,7 +7,7 @@ import "./Greeting.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 // import Button from "../../components/but  ton/Button";
 import Button from "../../components/button/Button";
-import { greeting} from "../../portfolio";
+import {greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import harishPhoto from "../../assets/images/Harish.jpg";
 
@@ -70,33 +70,35 @@ export default function Greeting() {
               ></img>
             )}
           </div> */}
-          <div className="greeting-image-div" style={{ width: "100%", marginTop: "2rem" }}>
-  <div
-    style={{
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      width: "100%",
-      height: "100%",
-      paddingBottom: "0", // removes bottom space
-    }}
-  >
-    <img
-      src={harishPhoto}
-      alt="Harish"
-      style={{
-        width: "380px",             // max enlarged
-        height: "380px",
-        borderRadius: "50%",
-        objectFit: "cover",
-        border: "6px solid white",
-        boxShadow: "0 0 25px rgba(0, 0, 0, 0.4)",
-        marginBottom: "0px",        // removes image bottom margin
-      }}
-    />
-  </div>
-</div>
-
+          <div
+            className="greeting-image-div"
+            style={{width: "100%", marginTop: "2rem"}}
+          >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "100%",
+                height: "100%",
+                paddingBottom: "0" // removes bottom space
+              }}
+            >
+              <img
+                src={harishPhoto}
+                alt="Harish"
+                style={{
+                  width: "380px", // max enlarged
+                  height: "380px",
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                  border: "6px solid white",
+                  boxShadow: "0 0 25px rgba(0, 0, 0, 0.4)",
+                  marginBottom: "0px" // removes image bottom margin
+                }}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </Fade>
