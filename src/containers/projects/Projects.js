@@ -99,10 +99,10 @@ export default function Projects() {
         if (!res.ok) throw new Error("Failed to fetch profile.json");
         const json = await res.json();
         const edges = json?.data?.user?.pinnedItems?.edges || [];
-        console.log("✅ Repos fetched:", edges); // Debug
+        console.log(" Repos fetched:", edges); // Debug
         setRepo(edges);
       } catch (error) {
-        console.error("❌ Fetch error:", error);
+        console.error(" Fetch error:", error);
         setRepo("Error");
       }
     };

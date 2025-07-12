@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/Harishgouda06022004/",
   linkedin: "https://www.linkedin.com/in/harish-patil-283819258/",
   gmail: "harishgouda213@gmail.com",
-  medium: "medium.com/@harishgouda216",
+  medium: "https://medium.com/@harishgouda216",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
