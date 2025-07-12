@@ -104,7 +104,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     // {
     //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
+    //   fontAwesomeClassname: "fas fa-fir"
     // },
     {
       skillName: "python",
