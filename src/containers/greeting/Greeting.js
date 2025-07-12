@@ -41,7 +41,7 @@ export default function Greeting() {
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />v
+                <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   // <a
                   //   href="https://drive.google.com/file/d/1m6ytuXV56031-osPmv-7vNuDHl9fNePz/view?usp=sharin"
@@ -49,7 +49,7 @@ export default function Greeting() {
                   //   className="download-link-button"
                   // >
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1m6ytuXV56031-osPmv-7vNuDHl9fNePz"
+                    href="https://drive.google.com/file/d/1nSKmdEvwRIy809eKmH0EhUjA220nOpNZ/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="download-link-button"
