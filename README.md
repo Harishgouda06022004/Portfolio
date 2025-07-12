@@ -18,6 +18,6 @@ It showcases my skills, projects, and open source contributions.
 ```bash
 git clone https://github.com/Harishgouda06022004/Portfolio.git
 cd Portfolio
-cp env.example .env     # or create .env manually
+cp env.example .env     # or create .env manuall
 npm install
 npm start
