@@ -259,6 +259,18 @@ const bigProjects = {
           url: "https://app.autocrud.com"
         }
       ]
+    },
+    {
+      image: require("./assets/images/courseapp.png"),
+      projectName: "Courseapp",
+      projectDesc:
+        "This will help users to buy courses related to programming languages",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://course-application-32.vercel.app/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
