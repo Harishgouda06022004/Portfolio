@@ -256,7 +256,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://app.autocrud.com/space/12CEBefqGY1rKIHJ/dashboard"
+          url: "https://app.autocrud.com"
         }
       ]
     }
@@ -264,8 +264,7 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Achievement Section
-// Include certificates, talks etc
+
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
