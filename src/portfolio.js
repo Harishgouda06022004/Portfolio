@@ -376,18 +376,126 @@ const talkSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
-
-// const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: [
-//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
+// Personal Projects Section
+const personalProjects = {
+  title: "Personal Projects",
+  subtitle:
+    "Some cool personal projects I’ve built to learn and explore new technologies.",
+  projects: [
+    {
+      image: require("./assets/images/smartdocbot.png"), // Add your image to assets/images
+      projectName: "SmartDocBot",
+      projectDesc:
+        "A chatbot that scans the pdf and provides preview where user can ask questions related to that pdf.",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "https://yourprojecturl.com"
+        // },
+        {
+          name: "Source Code",
+          url: "https://github.com/Harishgouda06022004/smartdocbot"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/courseapp.png"),
+      projectName: "CourseApplication",
+      projectDesc:
+        "A simple Course Application which will help users to buy the courses related to Programming language. previes can be viewed on github",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://course-application-32.vercel.app/"
+        },
+        {
+          name: "Source Code",
+          url: "https://github.com/Harishgouda06022004/courseapplication"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/webscrape.png"),
+      projectName: "WebScraping",
+      projectDesc: "A simple scrap to scrap related to the hospital websites",
+      footerLink: [
+        // {
+        //     name: "Visit Website",
+        //     url: "https://course-application-32.vercel.app/"
+        // },
+        {
+          name: "Source Code",
+          url: "https://github.com/Harishgouda06022004/Webscraping"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/joke.png"),
+      projectName: "JokeApp",
+      projectDesc:
+        "A random joke generator which will gernate 10 jokes to make you laugh",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://harishgouda06022004.github.io/jokeApp/"
+        },
+        {
+          name: "Source Code",
+          url: "https://github.com/Harishgouda06022004/jokeApp"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/gobookstore.png"),
+      projectName: "Go-BookStore",
+      projectDesc:
+        "go-bookstore 📚 is a simple and powerful RESTful API built with Go (Golang) for managing a bookstore's inventory. It supports CRUD operations for books, clean architecture, and easy integration ",
+      footerLink: [
+        // {
+        //     name: "Visit Website",
+        //     url: "https://harishgouda06022004.github.io/jokeApp/"
+        // },
+        {
+          name: "Source Code",
+          url: "https://github.com/Harishgouda06022004/go-bookstore"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/weather.png"),
+      projectName: "Weather-App",
+      projectDesc:
+        "A simple weather app which will give the data of weather of diffrent countries across world",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://harishgouda06022004.github.io/WeatherApp/"
+        },
+        {
+          name: "Source Code",
+          url: "https://github.com/Harishgouda06022004/WeatherApp"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/chessengine.png"),
+      projectName: "Chess Moves simple game",
+      projectDesc:
+        "A simple moves chess app is likely focused on providing a user-friendly experience, particularly for beginners, by emphasizing clear and straightforward gameplay with easy-to-understand moves for each piece",
+      footerLink: [
+        // {
+        //     name: "Visit Website",
+        //     url: "https://harishgouda06022004.github.io/WeatherApp/"
+        // },
+        {
+          name: "Source Code",
+          url: "https://github.com/Harishgouda06022004/CHESS-ENGINE"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section
+};
 
 // Resume Section
 const resumeSection = {
@@ -429,7 +537,7 @@ export {
   achievementSection,
   blogSection,
   talkSection,
-  // podcastSection,
+  personalProjects,
   contactInfo,
   twitterDetails,
   isHireable,

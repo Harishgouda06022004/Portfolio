@@ -1,0 +1,57 @@
+.personal-project-card {
+  background-color: var(--card-bg, #fff);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 1rem;
+  max-width: 400px;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  .card-image {
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .card-content {
+    padding: 1rem;
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-description {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    .card-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+
+      .card-link {
+        background-color: #007bff;
+        color: white;
+        padding: 0.4rem 0.8rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 0.9rem;
+
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+#personal-projects {
+  padding: 2rem;
+
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .subTitle {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
